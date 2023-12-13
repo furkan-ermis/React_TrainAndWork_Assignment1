@@ -1,339 +1,281 @@
-
 {
   "movies": [
     {
       "id": 1,
-      "isFavorite":false,
-      "categoryId": 2,
-      "movieName": "Inception",
-      "image": "images/inception.jpg",
-      "desc": "A mind-bending thriller directed by Christopher Nolan.",
-      "trailer":"8hP9D6kZseM?si=iIrd7_WGqTPr1PmZ",
-      "price": 18
+      "isFavorite": false,
+      "categoryId": 4,
+      "movieName": "Oppenheimer",
+      "image": "images/oppenheimer.jpg",
+      "desc": "A film about J. Robert Oppenheimer, the father of the atomic bomb.",
+      "trailer": "HYkXAHr45Yk?si=ljOhFEzeBoSHigQi",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989916",
+      "comment": []
     },
     {
       "id": 2,
-      "isFavorite":false,
-      "categoryId": 1,
-      "movieName": "The Shawshank Redemption",
-      "image": "images/shawshank.jpg",
-      "desc": "A powerful drama based on Stephen King's novella.",
-      "trailer":"PLl99DlL6b4?si=DozkQUiY7fcCznT4",
-      "price": 19
+      "isFavorite": false,
+      "categoryId": 4,
+      "movieName": "The Flash",
+      "image": "images/theflash.jpg",
+      "desc": "A superhero film featuring the character Barry Allen, also known as The Flash.",
+      "trailer": "hebWYacbdvc?si=52zjy1ard8YvAdEQ",
+      "rateCount": 6,
+      "rating": 3.5,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989882",
+      "comment": [
+        {
+          "isim": "Furkan",
+          "yorum": "merhaba dünya"
+        }
+      ]
     },
     {
       "id": 3,
-      "isFavorite":false,
-      "categoryId": 1,
-      "movieName": "The Godfather",
-      "image": "images/godfather.jpg",
-      "desc": "An epic crime film directed by Francis Ford Coppola.",
-      "trailer":"UaVTIH8mujA?si=v0_GNYRLkBIqS76u",
-      "price": 22
+      "isFavorite": false,
+      "categoryId": 4,
+      "movieName": "Zack Snyder’s Justice League",
+      "image": "images/justiceleague.jpg",
+      "desc": "A director's cut of the 2017 film Justice League, directed by Zack Snyder.",
+      "trailer": "ui37YKQ9AC4?si=iNMgQRe3Ow7vejqr",
+      "rateCount": 5,
+      "rating": 3.8,
+      "movie": "https://my.mail.ru/video/embed/7750209215083315785",
+      "comment": [
+        {
+          "isim": "Furkan",
+          "yorum": "Efsane bir Film Kesinlike tavsiye ederim"
+        },
+        {
+          "isim": "Furkan",
+          "yorum": "Aşırı iyi bir film zaten DC evreni Marveldan daha iyi ;)"
+        }
+      ]
     },
     {
       "id": 4,
-      "isFavorite":false,
-      "categoryId": 2,
-      "movieName": "Interstellar",
-      "image": "images/interstellar.jpg",
-      "desc": "A space exploration film directed by Christopher Nolan.",
-      "trailer":"vVJeYMRam0o?si=rb30dYNM5wtRZyPR",
-      "price": 21.35
+      "isFavorite": false,
+      "categoryId": 4,
+      "movieName": "Parasite",
+      "image": "images/parasite.jpg",
+      "desc": "A South Korean black comedy thriller film directed by Bong Joon-ho.",
+      "trailer": "SEUXfv87Wpk?si=nIe0_fKH-cn_FrPY",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076988058",
+      "comment": []
     },
     {
       "id": 5,
-      "isFavorite":false,
-      "categoryId": 2,
-      "movieName": "The Dark Knight",
-      "image": "images/darkknight.jpg",
-      "desc": "A superhero film directed by Christopher Nolan.",
-      "trailer":"EXeTwQWrcwY?si=yxR3IIQVcPuzXjxg",
-      "price": 25
+      "isFavorite": false,
+      "categoryId": 3,
+      "movieName": "The Departed",
+      "image": "images/kostebek.jpg",
+      "desc": "A crime thriller film directed by Martin Scorsese.",
+      "trailer": "Msfcos16JmU?si=n9lMvsE3NvhNMqbp",
+      "rateCount": 2,
+      "rating": 3.5,
+      "movie": "//ok.ru/videoembed/33470286561",
+      "comment": []
     },
     {
       "id": 6,
-      "isFavorite":false,
-      "categoryId": 7,
-      "movieName": "Forrest Gump",
-      "image": "images/forrestgump.jpg",
-      "desc": "A heartwarming drama directed by Robert Zemeckis.",
-      "trailer":"bLvqoHBptjg?si=WPgIgzivO_sq9lq5",
-      "price": 30
+      "isFavorite": false,
+      "categoryId": 1,
+      "movieName": "Django Unchained",
+      "image": "images/zincirsiz.jpg",
+      "desc": "A Western film written and directed by Quentin Tarantino.",
+      "trailer": "0fUCuvNlOCg?si=GrfUp6NHPaTt4BCy",
+      "rateCount": 5,
+      "rating": 3.4,
+      "movie": "https://my.mail.ru/video/embed/7750209215083315531",
+      "comment": []
     },
     {
       "id": 7,
-      "isFavorite":false,
-      "categoryId": 2,
-      "movieName": "Pulp Fiction",
-      "image": "images/pulpfiction.jpg",
-      "desc": "A nonlinear crime film directed by Quentin Tarantino.",
-      "trailer":"s7EdQ4FqbhY?si=HzEt27BXoKzOY16X",
-      "price": 40
+      "isFavorite": false,
+      "categoryId": 1,
+      "movieName": "Top Gun 2: Maverick",
+      "image": "images/topgun2.jpg",
+      "desc": "An action drama film directed by Joseph Kosinski.",
+      "trailer": "giXco2jaZ_4?si=yePJbqYQ4bhpxiBq",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/7750209215083318530",
+      "comment": []
     },
     {
       "id": 8,
-      "isFavorite":false,
-      "categoryId": 6,
-      "movieName": "The Shawshank Redemption",
-      "image": "images/shawshank.jpg",
-      "desc": "A nonlinear crime film directed by Quentin Tarantino.",
-      "trailer":"PLl99DlL6b4?si=DozkQUiY7fcCznT4",
-      "price": 40
+      "isFavorite": false,
+      "categoryId": 4,
+      "movieName": "The Terminator",
+      "image": "images/terminator1.jpg",
+      "desc": "A science fiction action film directed by James Cameron.",
+      "trailer": "YcJmAlYV6dg?si=ISlnfYceLVIYxr7i",
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076987689",
+      "comment": []
     },
     {
       "id": 9,
-      "isFavorite":false,
-      "categoryId": 6,
-      "movieName": "The Matrix",
-      "image": "images/matrix.jpg",
-      "desc": "A sci-fi action film directed by the Wachowskis.",
-      "trailer":"m8e-FF8MsqU?si=qob6Gb3AEvZAiHTP",
-      "price": 97
+      "isFavorite": false,
+      "categoryId": 1,
+      "movieName": "Mission: Impossible 7",
+      "image": "images/missionimpossible7.jpg",
+      "desc": "An action spy film directed by Christopher McQuarrie.",
+      "trailer": "FGhs8JQtDDk?si=O86PD5WGB2aVtyvS",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989871",
+      "comment": []
     },
     {
       "id": 10,
-      "isFavorite":false,
-      "categoryId": 8,
-      "movieName": "The Lord of the Rings: The Fellowship of the Ring",
-      "image": "images/lotr.jpg",
-      "desc": "An epic fantasy film directed by Peter Jackson.",
-      "trailer":"V75dMMIW2B4?si=koXqbXj0aa834erT",
-      "price": 31
+      "isFavorite": false,
+      "categoryId": 1,
+      "movieName": "Tam Gaz",
+      "image": "images/tamgaz.jpg",
+      "desc": "A high-octane action film full of thrilling moments.",
+      "trailer": "-1jdP7boFKw?si=lj47aFkXQkcn8CX9",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/7470177059621306630",
+      "comment": []
     },
     {
       "id": 11,
-      "isFavorite":false,
-      "categoryId": 4,
-      "movieName": "Inglourious Basterds",
-      "image": "images/inglourious.jpg",
-      "desc": "A war film directed by Quentin Tarantino.",
-      "trailer":"KnrRy6kSFF0?si=oQD18EKU21B-AvUL",
-      "price": 21
+      "isFavorite": false,
+      "categoryId": 6,
+      "movieName": "Aynı Yıldızın Altında",
+      "image": "images/ayniyildizinaltinda.jpg",
+      "desc": "Bir aşk hikayesi olan Aynı Yıldızın Altında, John Green'in romanından uyarlanmıştır.",
+      "trailer": "aQnlngjZG48?si=ZIKrzZpBmFm1aWFn",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076987484",
+      "comment": []
     },
     {
       "id": 12,
-      "isFavorite":false,
-      "categoryId": 4,
-      "movieName": "The Silence of the Lambs",
-      "image": "images/silence.jpg",
-      "desc": "A psychological horror film directed by Jonathan Demme.",
-      "trailer":"6iB21hsprAQ?si=WBh8RpSDGpLA0yMk",
-      "price": 38
+      "isFavorite": false,
+      "categoryId": 6,
+      "movieName": "Zaman Yolcusunun Karısı",
+      "image": "images/zamanyolcusununkarisi.jpg",
+      "desc": "Zaman Yolcusunun Karısı, Audrey Niffenegger'ın aynı adlı romanından uyarlanmış romantik bir film.",
+      "trailer": "gs_d2GR95Yo?si=dNUt4Ck8D6opNggE",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "//ok.ru/videoembed/375640099418",
+      "comment": []
     },
     {
       "id": 13,
-      "isFavorite":false,
-      "categoryId": 8,
-      "movieName": "Avatar",
-      "image": "images/avatar.jpg",
-      "desc": "A science fiction film directed by James Cameron.",
-      "trailer":"5PSNL1qE6VY?si=5bPh8tMGITl3WHev",
-      "price": 6
+      "isFavorite": false,
+      "categoryId": 1,
+      "movieName": "Kingsman: Gizli Servis",
+      "image": "images/kingsman1.jpg",
+      "desc": "Gizli bir istihbarat örgütünün eğitimine katılan genç bir adamın hikayesini anlatan aksiyon ve komedi türündeki film.",
+      "trailer": "hN0JkFrvO_M?si=R6Sk6GFUyLXE8aQ",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/7750209215083317066",
+      "comment": []
     },
     {
       "id": 14,
-      "isFavorite":false,
-      "categoryId": 7,
-      "movieName": "The Green Mile",
-      "image": "images/greenmile.jpg",
-      "desc": "A fantasy drama film directed by Frank Darabont.",
-      "trailer":"Ki4haFrqSrw?si=Gut47X1gqqpRDyTJ",
-      "price": 23.25
+      "isFavorite": false,
+      "categoryId": 8,
+      "movieName": "Bird Box",
+      "image": "images/birdbox.jpg",
+      "desc": "A post-apocalyptic horror film directed by Susanne Bier.",
+      "trailer": "1SvIwv4FLjE?si=zAUIh-NIa5mwAcQW",
+      "rateCount": 2,
+      "rating": 3,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989608",
+      "comment": []
     },
     {
       "id": 15,
-      "isFavorite":false,
+      "isFavorite": false,
       "categoryId": 2,
-      "movieName": "The Grand Budapest Hotel",
-      "image": "images/grandbudapest.jpg",
-      "desc": "A comedy film directed by Wes Anderson.",
-      "trailer":"1Fg5iWmQjwk?si=lEYC8by34n51eN1k",
-      "price": 15.5
+      "movieName": "Hayata Röveşata Çeken Adam",
+      "image": "images/hayatarovesata.jpg",
+      "desc": "A comedy film about a man who turns life upside down with his unique perspective.",
+      "trailer": "CQBffFDuXyg?si=9ABvMrYMFz8j3WAP",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989609",
+      "comment": []
     },
     {
       "id": 16,
-      "isFavorite":false,
-      "categoryId": 3,
-      "movieName": "Forrest Gump",
-      "image": "images/forrestgump.jpg",
-      "desc": "A heartwarming drama directed by Robert Zemeckis.",
-      "trailer":"bLvqoHBptjg?si=OOOQLMEL4qUG2sY3",
-      "price": 17.45
+      "isFavorite": false,
+      "categoryId": 2,
+      "movieName": "The Whale",
+      "image": "images/thewhale.jpg",
+      "desc": "A touching story about redemption and forgiveness. Charlie, an English teacher obsessed with the white whale from the classic Moby Dick, attempts to reconcile with his estranged daughter after years of abandonment. Battling obesity, Charlie navigates the challenges of self-acceptance and the pursuit of forgiveness.",
+      "trailer": "w_5RfHkZHWM?si=44ce1JDZRZswFd49",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/9197363450076989590",
+      "comment": []
     },
     {
       "id": 17,
-      "isFavorite":false,
-      "categoryId": 6,
-      "movieName": "The Lion King",
-      "image": "images/lionking.jpg",
-      "desc": "An animated musical film produced by Walt Disney.",
-      "trailer":"7TavVZMewpY?si=G3d1GqeSnARXRyq_",
-      "price": 35
+      "isFavorite": false,
+      "categoryId": 5,
+      "movieName": "Babamın Penguenleri",
+      "image": "images/babaminpenguenleri.jpg",
+      "desc": "Tom Popper, boşandıktan sonra sıradan bir hayat süren bir iş adamıdır. Ancak, babasından miras kalan altı penguenle tanıştığında hayatı tamamen değişir. ",
+      "trailer": "iu5-70plbUM?si=XszKCHqXMn178dyS",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "//ok.ru/videoembed/34635188951",
+      "comment": []
     },
     {
       "id": 18,
-      "isFavorite":false,
-      "categoryId": 8,
-      "movieName": "The Dark Knight Rises",
-      "image": "images/darkknightrises.jpg",
-      "desc": "A superhero film directed by Christopher Nolan.",
-      "trailer":"g8evyE9TuYk?si=uBd8Bs3yjnm5LieD",
-      "price": 62.5
-    },
-    {
-      "id": 19,
-      "isFavorite":false,
-      "categoryId": 3,
-      "movieName": "Titanic",
-      "image": "images/titanic.jpg",
-      "desc": "A romantic drama film directed by James Cameron.",
-      "trailer":"kVrqfYjkTdQ?si=rraCczd5BX3AHTo-",
-      "price": 9.2
-    },
-    {
-      "id": 20,
-      "isFavorite":false,
-      "categoryId": 3,
-      "movieName": "Jurassic Park",
-      "image": "images/jurassicpark.jpg",
-      "desc": "A science fiction adventure film directed by Steven Spielberg.",
-      "trailer":"lc0UehYemQA?si=_H9rRuBHVN3R8lSu",
-      "price": 81
-    },
-    {
-      "id": 21,
-      "isFavorite":false,
-      "categoryId": 3,
-      "movieName": "The Breakfast Club",
-      "image": "images/breakfastclub.jpg",
-      "desc": "A teen comedy-drama film directed by John Hughes.",
-      "trailer":"BSXBvor47Zs?si=6DKXH7JnKjA0Bx7d",
-      "price": 10
-    },
-    {
-      "id": 22,
-      "isFavorite":false,
+      "isFavorite": false,
       "categoryId": 5,
-      "movieName": "Inception",
-      "image": "images/inception.jpg",
-      "desc": "A mind-bending thriller directed by Christopher Nolan.",
-      "trailer":"8hP9D6kZseM?si=iIrd7_WGqTPr1PmZ",
-      "price": 21
-    },
-    {
-      "id": 23,
-      "isFavorite":false,
-      "categoryId": 5,
-      "movieName": "The Social Network",
-      "image": "images/socialnetwork.jpg",
-      "desc": "A biographical drama film directed by David Fincher.",
-      "trailer":"lB95KLmpLR4?si=4XaNNJpyZYe7PgZU",
-      "price": 9
-    },
-    {
-      "id": 24,
-      "isFavorite":false,
-      "categoryId": 1,
-      "movieName": "Avengers: Endgame",
-      "image": "images/endgame.jpg",
-      "desc": "A superhero film directed by Anthony and Joe Russo.",
-      "trailer":"TcMBFSGVi1c?si=p_bvef5a9EDFLf73",
-      "price": 25.89
-    },
-{
-  "id": 25,
-  "isFavorite":false,
-  "categoryId": 3,
-  "movieName": "The Revenant",
-  "image": "images/revenant.jpg",
-  "desc": "A survival drama film directed by Alejandro G. Iñárritu.",
-      "trailer":"LoebZZ8K5N0?si=AYxhyAihAzjVDeBD",
-      "price": 14
-  },
-  {
-  "id": 26,
-  "isFavorite":false,
-  "categoryId": 3,
-  "movieName": "La La Land",
-  "image": "images/lalaland.jpg",
-  "desc": "A romantic musical film directed by Damien Chazelle.",
-      "trailer":"0pdqf4P9MB8?si=L3abGLAlK1vsGPBS",
-      "price": 31.23
-  },
-  {
-  "id": 27,
-  "isFavorite":false,
-  "categoryId": 3,
-  "movieName": "The Shape of Water",
-  "image": "images/shapeofwater.jpg",
-  "desc": "A fantasy drama film directed by Guillermo del Toro.",
-      "trailer":"XFYWazblaUA?si=5VT2OGgR36rgiwCn",
-      "price": 43.9
-  },
-  {
-  "id": 28,
-  "isFavorite":false,
-  "categoryId": 7,
-  "movieName": "The Martian",
-  "image": "images/martian.jpg",
-  "desc": "A science fiction film directed by Ridley Scott.",
-      "trailer":"ej3ioOneTy8?si=XfDEWJZu8NUYNiQC",
-      "price": 45.6
-  },
-  {
-  "id": 29,
-  "isFavorite":false,
-  "categoryId": 6,
-  "movieName": "Mad Max: Fury Road",
-  "image": "images/madmax.jpg",
-  "desc": "A post-apocalyptic action film directed by George Miller.",
-      "trailer":"hEJnMQG9ev8?si=JKgMAX4k129Mxtr1",
-      "price": 123.79
-  },
-  {
-  "id": 30,
-  "isFavorite":false,
-  "categoryId": 8,
-  "movieName": "Black Panther",
-  "image": "images/blackpanther.jpg",
-  "desc": "A superhero film directed by Ryan Coogler.",
-      "trailer":"xjDjIWPwcPU?si=s5FSs5QvgT-ApyIP",
-      "price": 25.89
-  }
+      "movieName": "Bay Evet",
+      "image": "images/bayevet.jpg",
+      "desc": "Jim Carrey, kendi kendine yardım programına yazılan Carl Allen adlı bir adamı canlandırıyor. Program, hayatını değiştirmenin tek bir ilkeye dayandığı basit bir prensibe dayanır: Her şeye 'evet' demek. ",
+      "trailer": "1YTm5YuSHgE?si=kXqho1RVhm-v0Jbh",
+      "rateCount": 0,
+      "rating": 0,
+      "movie": "https://my.mail.ru/video/embed/7470177059621306460",
+      "comment": []
+    }
   ],
   "categories": [
-  {
-  "id": 1,
-  "categoryName": "Action"
-  },
-  {
-  "id": 2,
-  "categoryName": "Drama"
-  },
-  {
-  "id": 3,
-  "categoryName": "Crime"
-  },
-  {
-  "id": 4,
-  "categoryName": "Science Fiction"
-  },
-  {
-  "id": 5,
-  "categoryName": "Comedy"
-  },
-  {
-  "id": 6,
-  "categoryName": "Romance"
-  },
-  {
-  "id": 7,
-  "categoryName": "Fantasy"
-  },
-  {
-  "id": 8,
-  "categoryName": "Thriller"
-  }
+    {
+      "id": 1,
+      "categoryName": "Action"
+    },
+    {
+      "id": 2,
+      "categoryName": "Drama"
+    },
+    {
+      "id": 3,
+      "categoryName": "Crime"
+    },
+    {
+      "id": 4,
+      "categoryName": "Science Fiction"
+    },
+    {
+      "id": 5,
+      "categoryName": "Comedy"
+    },
+    {
+      "id": 6,
+      "categoryName": "Romance"
+    },
+    {
+      "id": 8,
+      "categoryName": "Thriller"
+    }
   ]
-  }
+}

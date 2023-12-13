@@ -1,27 +1,36 @@
+// App.js
 import React, { Component } from "react";
 import { Container, Row } from "reactstrap";
 import Categories from "./Components/Categories";
 import Header from "./Components/Header";
 import Movies from "./Components/Movies";
 import "./site.css";
+
 export default class App extends Component {
   state = {
     currentCategory: "",
-    Catmovies: [],
-    Allmovies: [],
-    fav: [],
     movies: [],
+    isFormOpen: false,
+    favoriteMovies: [],
+    categories: [],
   };
+
   componentDidMount() {
     this.getMovies();
+    this.getCategories();
   }
-  getMovies = () => {
-    let url = "http://localhost:3000/movies";
+
+  getCategories = () => {
+    let url = "http://localhost:3000/categories";
+
     fetch(url)
       .then((response) => response.json())
-      .then((data) => this.setState({ Allmovies: data }));
+      .then((data) => this.setState({ categories: data }))
+      .catch((error) => this.setState({ error: error.message }));
   };
-  getMoviesByCategory = (categoryId) => {
+  getMovies = (categoryId) => {
+    this.setState({ loading: true, error: null });
+
     let url = "http://localhost:3000/movies";
     if (categoryId) {
       url += "?categoryId=" + categoryId;
@@ -29,38 +38,81 @@ export default class App extends Component {
 
     fetch(url)
       .then((response) => response.json())
-      .then((data) => this.setState({ Catmovies: data }));
+      .then((data) => this.setState({ movies: data, loading: false }))
+      .catch((error) =>
+        this.setState({ error: error.message, loading: false })
+      );
   };
+
   changeCategory = (category) => {
     this.setState({ currentCategory: category.categoryName });
-    this.getMoviesByCategory(category.id);
+    this.getMovies(category.id);
+  };
+
+  updateFavorite = (movie) => {
+    fetch(`http://localhost:3000/movies/${movie.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(movie),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        return fetch(`http://localhost:3000/movies?isFavorite=true`);
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ favoriteMovies: data });
+      })
+      .catch((error) => {
+        console.error("Error updating favorite:", error);
+      });
   };
 
   getFavs = () => {
     this.setState({ currentCategory: "Favoriler" });
   };
 
-  addToFav = (movie) => {
+  changeFavorite = (movie) => {
     movie.isFavorite = !movie.isFavorite;
-    let newFav = this.state.fav;
-    newFav.push(movie);
-    this.setState({ fav: newFav });
+    this.updateFavorite(movie);
   };
 
-  removeToFav = (movie) => {
-    movie.isFavorite = !movie.isFavorite;
-
-    const newnewfav = this.state.fav.filter((i) => i.id !== movie.id);
-    this.setState({ fav: newnewfav });
+  addMovie = (newMovie) => {
+    fetch(`http://localhost:3000/movies`, {
+      method: "POST", // Change to POST for adding a new resource
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newMovie),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        return fetch(`http://localhost:3000/movies`);
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ movies: data });
+      })
+      .catch((error) => {
+        console.error("Error adding movie:", error);
+      });
+    this.setState({ currentCategory: "" });
   };
 
   render() {
+    const addMovieForm = () => {
+      this.setState({ isFormOpen: !this.state.isFormOpen });
+    };
+
     return (
       <div className="main">
         <Header
-          fav={this.state.fav}
-          statu={this.state.statu}
+          isFormOpen={this.state.isFormOpen}
+          addMovieForm={addMovieForm}
           getFavs={this.getFavs}
+          favoriteMovies={this.state.favoriteMovies}
         />
         <Container>
           <Row>
@@ -69,11 +121,13 @@ export default class App extends Component {
               currentCategory={this.state.currentCategory}
             />
             <Movies
-              addToFav={this.addToFav}
-              removeToFav={this.removeToFav}
-              Allmovies={this.state.Allmovies}
-              Catmovies={this.state.Catmovies}
-              fav={this.state.fav}
+              addMovieForm={addMovieForm}
+              categories={this.state.categories}
+              addMovie={this.addMovie}
+              isFormOpen={this.state.isFormOpen}
+              changeFavorite={this.changeFavorite}
+              movies={this.state.movies}
+              favoriteMovies={this.state.favoriteMovies}
               currentCategory={this.state.currentCategory}
             />
           </Row>
