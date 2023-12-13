@@ -1,3 +1,8 @@
+![image](https://github.com/furkan-ermis/React_TrainAndWork_Assignment1/assets/101528645/1e5f517b-d4a3-453c-8447-bba7b0225f44)
+![image](https://github.com/furkan-ermis/React_TrainAndWork_Assignment1/assets/101528645/634be5ad-9e1e-4556-acc0-acf3ee41fece)
+![image](https://github.com/furkan-ermis/React_TrainAndWork_Assignment1/assets/101528645/fae081ba-1063-449f-b174-0ab247bb3d4c)
+![image](https://github.com/furkan-ermis/React_TrainAndWork_Assignment1/assets/101528645/cefa185b-99cd-4c4f-a12e-5ce1654b969d)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
