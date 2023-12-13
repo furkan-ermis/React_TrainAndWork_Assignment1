@@ -94,7 +94,7 @@
     },
     {
       "id": 7,
-      "isFavorite": false,
+      "isFavorite": true,
       "categoryId": 1,
       "movieName": "Top Gun 2: Maverick",
       "image": "images/topgun2.jpg",
@@ -119,7 +119,7 @@
     },
     {
       "id": 9,
-      "isFavorite": false,
+      "isFavorite": true,
       "categoryId": 1,
       "movieName": "Mission: Impossible 7",
       "image": "images/missionimpossible7.jpg",
